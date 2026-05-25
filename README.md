@@ -6,7 +6,7 @@ Supports multi-provider LLM backends (OpenAI, Claude, Gemini) with
 semantic search, intent classification, confidence scoring, and 
 persistent conversation history.
 
-**Built at:** CPC Integrated Health  
+**Built for:** CPC Integrated Health  
 **Authors:** Dahana Moz Ruiz & Marcelle Tamegnon
 
 ---
