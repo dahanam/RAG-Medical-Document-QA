@@ -1,8 +1,6 @@
 """
 Improved Manual QA Agent with better formatted, readable responses.
 Run with: streamlit run chat.py
-
-I think so far this one has had the best responses
 """
 import re
 import logging
