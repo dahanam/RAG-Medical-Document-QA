@@ -71,8 +71,8 @@ persistent conversation history.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/dahanam/EHR-Manual-QA-Chatbot.git
-cd EHR-Manual-QA-Chatbot
+git clone https://github.com/dahanam/RAG-Medical-Document-QA.git
+cd RAG-Medical-Document-QA
 ```
 
 ### 2. Create and activate virtual environment
@@ -99,12 +99,12 @@ GOOGLE_API_KEY=your_key_here
 
 **Full multi-provider version (recommended):**
 ```bash
-streamlit run chatbox2.py
+streamlit run main.py
 ```
 
 **Lightweight single-agent version:**
 ```bash
-streamlit run chat.py
+streamlit run chat_single_agent.py
 ```
 
 ---
@@ -113,9 +113,9 @@ streamlit run chat.py
 
 | File | Description |
 |------|-------------|
-| `chatbox2.py` | Full app — multi-provider LLM, persistent history, Key Takeaways |
-| `chat.py` | Improved single-agent version with intent-aware formatting |
-| `chatbox.py` | Original baseline agent (Marcelle's version) |
+| `main.py` | Full app — multi-provider LLM, persistent history, Key Takeaways |
+| `chat_single_agent.py` | Improved single-agent version with intent-aware formatting |
+| `base.py` | Original baseline agent (Marcelle's version) |
 | `modules/magent.py` | ManualOnlyAgent — core QA logic |
 | `modules/llm_registry.py` | LLM provider registry (OpenAI, Claude, Gemini) |
 | `modules/functions.py` | spaCy loader, PDF reader utilities |
