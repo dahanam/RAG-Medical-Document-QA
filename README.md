@@ -134,6 +134,23 @@ streamlit run chat_single_agent.py
 
 ---
 
+## Dataset
+
+The system was developed and tested against a dataset of **184 EHR documents** 
+(23 real, 161 synthetic) spanning multiple document types:
+
+- **Bio documents** — Client biographical and demographic summaries
+- **Medical Notes** — Clinical encounter notes
+- **Treatment Plans** — Client care and intervention plans
+- **Decision Trees** — Care management workflows covering Employment, 
+  Financial, Food Insecurity, Housing, Safety, Social Isolation, 
+  and Transportation domains
+
+> ⚠️ Dataset not included in this repository due to patient privacy 
+> and proprietary data restrictions (HIPAA).
+
+---
+
 ## Authors
 
 Dahana Moz Ruiz & Marcelle Tamegnon — CPC Integrated Health
