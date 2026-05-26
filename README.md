@@ -91,8 +91,11 @@ python -m spacy download en_core_web_sm
 
 ### 4. Add API keys
 Create a file at `files/keys.env`:
+
 OPENAI_API_KEY=your_key_here
+
 ANTHROPIC_API_KEY=your_key_here
+
 GOOGLE_API_KEY=your_key_here
 
 ### 5. Run the app
@@ -115,12 +118,7 @@ streamlit run chat_single_agent.py
 |------|-------------|
 | `main.py` | Full app — multi-provider LLM, persistent history, Key Takeaways |
 | `chat_single_agent.py` | Improved single-agent version with intent-aware formatting |
-| `base.py` | Original baseline agent (Marcelle's version) |
-| `modules/magent.py` | ManualOnlyAgent — core QA logic |
-| `modules/llm_registry.py` | LLM provider registry (OpenAI, Claude, Gemini) |
-| `modules/functions.py` | spaCy loader, PDF reader utilities |
-| `modules/message_db_functions.py` | SQLite conversation persistence |
-| `files/keys.env` | API keys (not committed to repo) |
+| `base.py` | Original baseline agent |
 
 ---
 
